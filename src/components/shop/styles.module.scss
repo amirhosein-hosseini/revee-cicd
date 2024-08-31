@@ -1,0 +1,62 @@
+
+
+
+.shopitem{
+    &__image{
+        position: relative;
+        img{
+            transition: 0.4s;
+        }
+        &:hover{
+            img{
+                transform: scale(1.1);
+            }
+            .overlay{
+                opacity: 100%;
+            }
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(39, 189, 190, 0.85);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+        }
+    }
+}
+
+.singleshopnavbar{
+    .item{
+        .active{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 4px;
+                background: #27BDBE;
+                bottom: -7px;
+                left: 0;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+
+.cartpopup{
+    background: rgba(68, 68, 68, 0.8);
+}
+
+
+.singleaddtobag{
+    width: 100%;
+    button{
+        width: 100%;
+    }
+}

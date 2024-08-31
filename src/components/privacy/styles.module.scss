@@ -1,0 +1,28 @@
+// .privacy{
+//     &__header{
+//         background: rgba(39, 189, 190, 0.46);
+//     }
+//     &__desc{
+//         background: rgba(217, 217, 217, 0.3);
+//         &::-webkit-scrollbar{
+//             display: none;
+//         }
+//     }
+// }
+.formgroup{
+    input{
+        border: 1px solid rgba(136, 136, 136, 0.30);
+    }
+    textarea{
+        border: 1px solid rgba(136, 136, 136, 0.30);
+    }
+}
+
+.cookie{
+    box-shadow: 5.085px 2.906px 36.178px 0px rgba(0, 0, 0, 0.25);
+    .cookieButton{
+        button{
+            width: 100%;
+        }
+    }
+}

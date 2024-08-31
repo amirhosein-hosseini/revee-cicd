@@ -1,0 +1,50 @@
+.galleryContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .thumbnailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .thumbnail {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+  
+  .thumbnail:hover, .thumbnail.selected {
+    opacity: 1;
+  }
+  
+  .mainImageContainer {
+    position: relative;
+    flex-grow: 1;
+  }
+  
+  .scrollButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scrollButton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
