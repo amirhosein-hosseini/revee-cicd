@@ -1,0 +1,2340 @@
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "http://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/404.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:2108:30)
+    at async pipe.req.req (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:2063:30)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:372:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.<anonymous> (/home/healfita/v2/server.js:42:9)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/shop",
+  "url": "/shop",
+  "initUrl": "https://localhost:3000/shop",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /shop ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/shop.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/404.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderErrorToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:2108:30)
+    at async pipe.req.req (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:2063:30)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:372:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.<anonymous> (/home/healfita/v2/server.js:42:9)
+Invariant: failed to load static page {
+  "page": "/",
+  "url": "/",
+  "initUrl": "https://localhost:3000/",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: / ENOENT: no such file or directory, open '/home/healfita/v2/.next/server/pages/index.html'
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:102:19
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36)
+    at async NextNodeServer.renderPageComponent (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1917:24)
+    at async NextNodeServer.renderToResponseImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:1969:32)
+    at async NextNodeServer.pipeImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:272:17)
+    at async NextNodeServer.handleRequestImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/base-server.js:816:17)
+    at async invokeRender (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/lib/router-server.js:353:24)
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+ ⨯ Error: Cannot find module '/home/healfita/v2/.next/server/pages/_error.js'
+Require stack:
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js
+- /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js
+- /home/healfita/v2/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at mod.require (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:177:18)
+    at requirePage (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js:109:84)
+    at /home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/load-components.js:98:26)
+    at async NextNodeServer.findPageComponentsImpl (/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/require.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next-server.js',
+    '/home/healfita/nodevenv/v2/18/lib/node_modules/next/dist/server/next.js',
+    '/home/healfita/v2/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
