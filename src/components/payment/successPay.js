@@ -25,9 +25,9 @@ const SuccessPay = () => {
 
 
     
-    // const deleteCartData = () => {
-    //     localStorage.removeItem('cart'); 
-    // };
+    const deleteCartData = () => {
+        localStorage.removeItem('cart'); 
+    };
 
 
 
