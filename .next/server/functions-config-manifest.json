@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/category/[slug]/[secslug]":{},"/gender/[slug]":{},"/shop/[slug]":{},"/blog/[slug]":{},"/search/[slug]":{}}}
+{"version":1,"functions":{"/blog/[slug]":{},"/gender/[slug]":{},"/shop/[slug]":{},"/category/[slug]/[secslug]":{},"/search/[slug]":{}}}

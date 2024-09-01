@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/svqDsDQu8KvuzpDPwr1Sm/_buildManifest.js",
-    "static/svqDsDQu8KvuzpDPwr1Sm/_ssgManifest.js"
+    "static/1eW5UMw_vUY0vmeohyS4B/_buildManifest.js",
+    "static/1eW5UMw_vUY0vmeohyS4B/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,14 +16,14 @@
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/chunks/598-6b43bec9bf698855.js",
       "static/css/5c9bce376567e85d.css",
-      "static/chunks/pages/index-37a1e9431e8dbe9b.js"
+      "static/chunks/pages/index-c9d3ff24d0aefb86.js"
     ],
     "/_app": [
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
-      "static/css/d41a33ff57152e82.css",
-      "static/chunks/pages/_app-14baf2757583ad20.js"
+      "static/css/e548dbdf305a6571.css",
+      "static/chunks/pages/_app-4d14b9c4bfed823a.js"
     ],
     "/_error": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -71,7 +71,7 @@
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/css/3dceb9c8a92e0ffc.css",
-      "static/chunks/pages/cart-579ba161c3ae3090.js"
+      "static/chunks/pages/cart-7303ad24037e8c8b.js"
     ],
     "/category": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -149,8 +149,15 @@
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
-      "static/css/0e35ccf96878ea82.css",
-      "static/chunks/pages/panel-31a3c43a223dd82e.js"
+      "static/css/87f2d13516f13de3.css",
+      "static/chunks/pages/panel-ddf7f8ea856ba568.js"
+    ],
+    "/panel/edit-address/[slug]": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-ecc4130bc7a58a64.js",
+      "static/chunks/main-ac52e5f1ea1d2a16.js",
+      "static/css/5027bcf9d6c861e9.css",
+      "static/chunks/pages/panel/edit-address/[slug]-e8ced3e85d8fe774.js"
     ],
     "/privacy": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -200,7 +207,7 @@
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/chunks/641-55ce1965c48b1bda.js",
       "static/css/7028011f22c464c3.css",
-      "static/chunks/pages/shop/[slug]-6034f932ca68ceb4.js"
+      "static/chunks/pages/shop/[slug]-af0e9de8b2ed0ced.js"
     ],
     "/signin": [
       "static/chunks/webpack-59c5c889f52620d6.js",

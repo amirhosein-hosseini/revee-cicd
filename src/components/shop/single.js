@@ -496,7 +496,7 @@ const SingleShop = () => {
                                     </p>
                                 </div>
                                 <div className={styles.title + " mt-[-10px]"}>
-                                    <h1 className="text-[40px] leading-[45px] max-md:text-2xl font-noraml text-left text-black">
+                                    <h1 className="text-[40px] leading-[45px] max-md:text-2xl font-noraml text-left text-black" style={{direction: "ltr"}}>
                                         {singleData?.name_product}
                                     </h1>
                                 </div>
@@ -810,7 +810,7 @@ const SingleShop = () => {
                                 </p>
                             </div>
                             <div className={styles.title + " mt-[-10px]"}>
-                                <h1 className="text-[40px] leading-[45px] max-md:text-2xl font-noraml text-left text-black">
+                                <h1 className="text-[40px] leading-[45px] max-md:text-2xl font-noraml text-left text-black" style={{direction: "ltr"}}>
                                     {singleData?.name_product}
                                 </h1>
                             </div>

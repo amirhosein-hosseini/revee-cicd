@@ -5,6 +5,7 @@ import { getCookie } from "../../api/auth";
 import axios from "axios";
 import { domain } from "../../api/domain";
 import PanelAddAddress from "./panelAddAddress";
+import Link from "next/link";
 
 const PanelAdress = () => {
 
@@ -99,9 +100,16 @@ const PanelAdress = () => {
                                                     <p className="text-sm max-md:text-xs">{item?.additional_information}</p>
                                                     <p className="text-sm max-md:text-xs">{item?.phone_number}</p>
                                                 </div>
-                                                <div className={styles.wrapper__footer + " flex items-center justify-start gap-6 mt-3"}>
-                                                    <div className={styles.remove + " flex gap-1 items-center cursor-pointer"} onClick={() => handelDeleteAddress(item?.id)}>
-                                                        <p className="text-sm text-[#27BDBE]">Delete</p>
+                                                <div className="flex items-center gap-5">
+                                                    <div className={styles.wrapper__footer + " flex items-center justify-start gap-6 mt-3"}>
+                                                        <div className={styles.remove + " flex gap-1 items-center cursor-pointer"} onClick={() => handelDeleteAddress(item?.id)}>
+                                                            <p className="text-sm text-[#27BDBE]">Delete</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.wrapper__footer + " flex items-center justify-start gap-6 mt-3"}>
+                                                        <div className={styles.remove + " flex gap-1 items-center cursor-pointer"}>
+                                                            <Link href={"/panel/edit-address/" + item?.id} className="text-sm text-[#27BDBE]">Edit</Link>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

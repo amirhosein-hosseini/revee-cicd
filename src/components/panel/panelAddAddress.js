@@ -8,51 +8,81 @@ import axios from "axios";
 import { domain } from "../../api/domain";
 import { getCookie } from "../../api/auth";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";  
+import "react-toastify/dist/ReactToastify.css"; 
+
+
+const countriesData = [
+    { name: 'United States', cities: ['New York', 'Los Angeles', 'Chicago'], phonePrefix: '+1' },
+    { name: 'United Kingdom', cities: ['London', 'Manchester', 'Birmingham'], phonePrefix: '+44' },
+    // Add more countries...
+];
 
 const PanelAddAddress = ({handleLevel , handleReload , reload}) => {
 
-
-    const token = getCookie('token')
+    const token = getCookie('token');
     const [formData, setFormData] = useState({
-        address: "",
-        additional_information: "",
-        emirats: "",
-        city: "",
-        country: "",
-        phone_number: "",
+      address: "",
+      additional_information: "",
+      emirats: "",
+      city: "",
+      country: "",
+      phone_number: "",
     });
-    const [loading , setLoading] = useState(false);
-    const [error , setError] = useState(null);
-
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+    const [cities, setCities] = useState([]);
+    const [phonePrefix, setPhonePrefix] = useState('');
+  
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
+      const { name, value } = e.target;
+      setFormData({ ...formData, [name]: value });
+  
+      if (name === 'country') {
+        const selectedCountry = countriesData.find(c => c.name === value);
+        if (selectedCountry) {
+          setCities(selectedCountry.cities);
+          setPhonePrefix(selectedCountry.phonePrefix);
+          setFormData(prev => ({ ...prev, city: '', phone_number: '' })); // Reset city and phone when country changes
+        } else {
+          setCities([]);
+          setPhonePrefix('');
+        }
+      }
     };
-
+  
+    const handlePhoneChange = (e) => {
+      const phoneNumber = e.target.value;
+      setFormData(prev => ({ ...prev, phone_number: phoneNumber }));
+    };
+  
     const handleSubmit = (e) => {
-        e.preventDefault();
-
-        setLoading(true)
-
-        axios.post(domain + 'accounts/address/', formData , {
-            headers : {
-                'Authorization' : 'Bearer ' + token,
-            }
+      e.preventDefault();
+  
+      setLoading(true);
+  
+      const submissionData = {
+        ...formData,
+        phone_number: phonePrefix + formData.phone_number,
+      };
+  
+      axios.post(domain + 'accounts/address/', submissionData, {
+        headers: {
+          'Authorization': 'Bearer ' + token,
+        }
+      })
+        .then((response) => {
+          handleReload(reload + 1);
+          handleLevel("info");
         })
-            .then((response) => {
-                handleReload(reload + 1)
-                handleLevel("info")
-            })
-            .catch((error) => {
-                setError(error.response.data);
-            })
-            .finally(() => {
-                console.log("final");
-                setLoading(false);
-            });
+        .catch((error) => {
+          setError(error.response.data);
+        })
+        .finally(() => {
+          console.log("final");
+          setLoading(false);
+        });
     };
-    
+  
 
     return(
         <div className={styles.formpage}>
@@ -102,7 +132,7 @@ const PanelAddAddress = ({handleLevel , handleReload , reload}) => {
                                     }
                                     {error?.additional_information && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error?.additional_information}</p>}
                                 </div>
-                                <div className={styles.formgroup + " w-full flex flex-col items-center gap-1 mb-3"}>
+                                {/* <div className={styles.formgroup + " w-full flex flex-col items-center gap-1 mb-3"}>
                                     {error?.emirats ? 
                                         <input 
                                             className="redinput placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
@@ -122,65 +152,56 @@ const PanelAddAddress = ({handleLevel , handleReload , reload}) => {
                                         />
                                     }
                                     {error?.emirats && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error?.emirats}</p>}
-                                </div>
+                                </div> */}
                                 <div className={styles.formgroup + " w-full flex flex-col items-center gap-1 mb-3"}>
-                                    {error?.city ? 
-                                        <input 
-                                            className="redinput placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" 
-                                            name="city" 
-                                            value={formData?.city} 
-                                            placeholder="CITY*  " 
-                                            onChange={handleChange} 
-                                        /> : 
-                                        <input 
-                                            className="placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" 
-                                            name="city" 
-                                            value={formData?.city} 
-                                            placeholder="CITY*  " 
-                                            onChange={handleChange} 
-                                        />
-                                    }
-                                    {error?.city && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error?.city}</p>}
+                                    <select
+                                        className={(error?.country ? "redinput " : "") + "placeholder-opacity-25 w-full p-3 text-xs tracking-widest"}
+                                        name="country"
+                                        value={formData.country}
+                                        onChange={handleChange}
+                                    >
+                                        <option value="">SELECT COUNTRY*</option>
+                                        {countriesData.map(country => (
+                                            <option key={country.name} value={country.name}>{country.name}</option>
+                                        ))}
+                                    </select>
+                                    {error?.country && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error.country}</p>}
                                 </div>
+
                                 <div className={styles.formgroup + " w-full flex flex-col items-center gap-1 mb-3"}>
-                                    {error?.country ?
-                                        <input 
-                                            className="redinput placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" name="country" 
-                                            value={formData?.country} 
-                                            placeholder="COUNTRY*  " 
-                                            onChange={handleChange} 
-                                        /> : 
-                                        <input 
-                                            className="placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" name="country" 
-                                            value={formData?.country} 
-                                            placeholder="COUNTRY*  " 
-                                            onChange={handleChange} 
-                                        />
-                                    }
-                                    {error?.country && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error?.country}</p>}
+                                    <select
+                                        className={(error?.city ? "redinput " : "") + "placeholder-opacity-25 w-full p-3 text-xs tracking-widest"}
+                                        name="city"
+                                        value={formData.city}
+                                        onChange={handleChange}
+                                        disabled={!formData.country}
+                                    >
+                                        <option value="">SELECT CITY*</option>
+                                        {cities.map(city => (
+                                            <option key={city} value={city}>{city}</option>
+                                        ))}
+                                    </select>
+                                    {error?.city && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error.city}</p>}
                                 </div>
+
                                 <div className={styles.formgroup + " w-full flex flex-col items-center gap-1 mb-3"}>
-                                    {error?.phone_number ? 
-                                        <input 
-                                            className="redinput placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" name="phone_number" 
-                                            value={formData?.phone_number} 
-                                            placeholder="PHONE*  " 
-                                            onChange={handleChange} 
-                                        /> : 
-                                        <input 
-                                            className="placeholder-opacity-25 w-full p-3 text-xs tracking-widest" 
-                                            type="text" name="phone_number" 
-                                            value={formData?.phone_number} 
-                                            placeholder="PHONE*  " 
-                                            onChange={handleChange} 
+                                    <div className="w-full flex">
+                                        <input
+                                            className="w-1/4 p-3 text-xs tracking-widest bg-gray-100"
+                                            type="text"
+                                            value={phonePrefix}
+                                            readOnly
                                         />
-                                    }
-                                    {error?.phone_number && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error?.phone_number}</p>}
+                                        <input
+                                            className={(error?.phone_number ? "redinput " : "") + "placeholder-opacity-25 w-3/4 p-3 text-xs tracking-widest"}
+                                            type="text"
+                                            name="phone_number"
+                                            value={formData.phone_number}
+                                            placeholder="PHONE*"
+                                            onChange={handlePhoneChange}
+                                        />
+                                    </div>
+                                    {error?.phone_number && <p className="text-xs mr-auto text-[#ff0000] mt-1">{error.phone_number}</p>}
                                 </div>
                         </form>
                     </div>

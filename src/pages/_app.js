@@ -54,14 +54,12 @@ export default function App({ Component, pageProps }) {
           <meta property="twitter:url" content="https://healfit.ae/" />
           <meta property="twitter:title" content="Healfit" />
           <meta property="twitter:description" content="healfit health marketplace" />
-          <meta property="twitter:image" content="https://healfit.ae/images/favicon.pnng" />
+          <meta property="twitter:image" content="https://healfit.ae/images/favicon.png" />
         </Head>
         <AuthProvider>
           <Component {...pageProps} />
           <ToastContainer />
         </AuthProvider>
       </>
-
-    
   );
 }

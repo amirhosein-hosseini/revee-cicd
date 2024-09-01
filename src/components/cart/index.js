@@ -164,13 +164,14 @@ const CartPage = () => {
                                 }
                             </div>
                             <div className={styles.cart__button + " flex items-center justify-center"}>
-                                {isLoggedIn == true && addresses?.length > 0 ? 
-                                <Link href={"/address-list"}><BluePrimaryButton>PROCEED TO CHECKOUT</BluePrimaryButton></Link> : 
-                                isLoggedIn == true && addresses?.length == 0 ?
-                                <Link href={"/add-address"}><BluePrimaryButton>PROCEED TO CHECKOUT</BluePrimaryButton></Link> :
-                                isLoggedIn == false ? <Link href={"/login"}><SecondPrimaryButton>PROCEED TO CHECKOUT</SecondPrimaryButton></Link>
-                                : 
-                                ""}
+                                {isLoggedIn && addresses?.length > 0 ?
+                                    <Link href="/address-list"><BluePrimaryButton>PROCEED TO CHECKOUT</BluePrimaryButton></Link> :
+                                    isLoggedIn && addresses?.length === 0 ?
+                                        <Link href="/add-address"><BluePrimaryButton>PROCEED TO CHECKOUT</BluePrimaryButton></Link> :
+                                        !isLoggedIn ?
+                                            <Link href="/login?redirect=/address-list"><SecondPrimaryButton>PROCEED TO CHECKOUT</SecondPrimaryButton></Link>
+                                            :
+                                            ""}
                             </div>
                             <div className={styles.payments + " flex mt-2 gap-1 items-center mx-auto"}>
                                 <div className={styles.item}>

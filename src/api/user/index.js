@@ -23,6 +23,24 @@ export const getAllAdresses = async () => {
 };
 
 
+export const getAddressById = async (id) => {
+
+  const token = getCookie("token");
+
+
+
+  try {
+    const response = await axios.get(domain + 'accounts/address/item/' + id,{
+      headers:{
+        'Authorization' : 'Bearer ' + token,
+      }
+    });
+    return response.data;
+  } catch (error) {
+    throw new Error(error.message);
+  }
+};
+
 
 export const getAllPersonalInformation = async () => {
 

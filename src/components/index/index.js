@@ -186,10 +186,10 @@ const HomePage = () => {
         <> 
             <Head>
                 {
-                    seoFields?.follow === false && seoFields?.index === false ? <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" /> :
-                        seoFields?.follow === false && seoFields?.index === true ? <meta name="robots" content="follow, noindex" /> :
-                            seoFields?.follow === true && seoFields?.index === false ? <meta name="robots" content="nofollow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" /> :
-                                seoFields?.follow === true && seoFields?.index === true ? <meta name="robots" content="nofollow, noindex" /> : ""
+                    seoFields?.follow === true && seoFields?.index === true ? <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" /> :
+                        seoFields?.follow === true && seoFields?.index === false ? <meta name="robots" content="follow, noindex" /> :
+                            seoFields?.follow === false && seoFields?.index === true ? <meta name="robots" content="nofollow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" /> :
+                                seoFields?.follow === false && seoFields?.index === false ? <meta name="robots" content="nofollow, noindex" /> : ""
                 }
                 <link rel="canonical" href={seoFields?.canonical === "" ? "https://healfit.ae" : seoFields?.canonical} />
                 <meta name="description" content={seoFields?.meta_description} />

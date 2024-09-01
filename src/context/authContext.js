@@ -38,8 +38,15 @@ export const AuthProvider = ({ children }) => {
   const signIn = (token) => {
     setCookie('token', token, 7);
     setIsLoggedIn(true);
-    router.push("/");
-  };
+    
+    // Check if there's a redirect query parameter
+    const { redirect } = router.query;
+    if (redirect) {
+        router.push(redirect);
+    } else {
+        router.push("/");
+    }
+};
 
   return (
     <AuthContext.Provider value={{ isLoggedIn, signIn, signOut }}>
