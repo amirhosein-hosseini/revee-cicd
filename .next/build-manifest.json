@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/D4AlUL2uo45Si9a7AA9Ey/_buildManifest.js",
-    "static/D4AlUL2uo45Si9a7AA9Ey/_ssgManifest.js"
+    "static/wz59PC1vzpJ6YnlGedew9/_buildManifest.js",
+    "static/wz59PC1vzpJ6YnlGedew9/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,7 +16,7 @@
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/chunks/598-6b43bec9bf698855.js",
       "static/css/5c9bce376567e85d.css",
-      "static/chunks/pages/index-c9d3ff24d0aefb86.js"
+      "static/chunks/pages/index-92cdbf8432105a29.js"
     ],
     "/_app": [
       "static/chunks/webpack-59c5c889f52620d6.js",
@@ -71,13 +71,13 @@
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/css/3dceb9c8a92e0ffc.css",
-      "static/chunks/pages/cart-7303ad24037e8c8b.js"
+      "static/chunks/pages/cart-11788211e23e975c.js"
     ],
     "/category": [
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
-      "static/chunks/874-9f582c3917689e8c.js",
+      "static/chunks/874-e822ef1485a3f2e8.js",
       "static/css/6772c2e035e5681c.css",
       "static/chunks/pages/category-9058af420d7d9dcb.js"
     ],
@@ -85,7 +85,7 @@
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
-      "static/chunks/874-9f582c3917689e8c.js",
+      "static/chunks/874-e822ef1485a3f2e8.js",
       "static/css/6772c2e035e5681c.css",
       "static/chunks/pages/category/[slug]-8f150c9700fbb531.js"
     ],
@@ -94,7 +94,7 @@
       "static/chunks/framework-ecc4130bc7a58a64.js",
       "static/chunks/main-ac52e5f1ea1d2a16.js",
       "static/css/6772c2e035e5681c.css",
-      "static/chunks/pages/category/[slug]/[secslug]-37d4a5b2a0ed2501.js"
+      "static/chunks/pages/category/[slug]/[secslug]-be2e24f01ae33543.js"
     ],
     "/conditions": [
       "static/chunks/webpack-59c5c889f52620d6.js",

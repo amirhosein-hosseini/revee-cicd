@@ -49,7 +49,7 @@ const CartPage = () => {
         setCartItems(storedCart);
 
         let totalPrice = storedCart.reduce((acc, currentItem) => {
-            return acc + currentItem.quantity * currentItem.price;
+            return acc + currentItem.quantity * currentItem.off_price;
         }, 0);
         setTotalPrice(totalPrice);
 

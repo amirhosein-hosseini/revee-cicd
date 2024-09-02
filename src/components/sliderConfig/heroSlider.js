@@ -19,9 +19,9 @@ export default function HeroSlider({data}) {
   return (
     <Slider {...settings}>
       {data?.map((item) => (
-        <div className="w-full overflow-hidden">
+        <a target="_blank" href={item?.link} className="w-full overflow-hidden">
           <img className="object-cover w-full" src={image_url + item?.banner} />
-        </div>
+        </a>
       ))}
     </Slider>
   );
