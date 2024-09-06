@@ -31,6 +31,12 @@ const Header = () => {
     // function for opening nav
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
+    
+        if (!isNavOpen) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
     };
 
     // function for getting cart items

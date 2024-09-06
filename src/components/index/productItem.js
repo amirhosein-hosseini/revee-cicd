@@ -24,11 +24,11 @@ const ProductItem = ({image , title , price , slug , fav , id , onReload , name 
             }
         })
             .then((response) => {
-                toast.success("added to favorite")
+                
                 onReload();
             })
             .catch((error) => {
-                toast.error(error.response.data);
+                
             })
             .finally(() => {
                 console.log("final");
@@ -46,11 +46,12 @@ const ProductItem = ({image , title , price , slug , fav , id , onReload , name 
             }
         })
             .then((response) => {
-                toast.success("deleted from favorite")
+
                 onReload();
+                
             })
             .catch((error) => {
-                toast.error(error.response.data);
+                
             })
             .finally(() => {
                 console.log("final");
@@ -58,7 +59,6 @@ const ProductItem = ({image , title , price , slug , fav , id , onReload , name 
     }
 
 
-    console.log(alt)
 
 
 
@@ -72,7 +72,7 @@ const ProductItem = ({image , title , price , slug , fav , id , onReload , name 
                     <p className="text-[10px]">
                         {title}
                     </p>
-                    <p className="text-[11px]">
+                    <p className="text-[13px]">
                         {name}
                     </p>
                     {percentDiscount === 0 || percentDiscount === "0" || percentDiscount === null || percentDiscount === undefined ?

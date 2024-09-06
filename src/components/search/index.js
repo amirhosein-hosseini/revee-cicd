@@ -56,7 +56,7 @@ const Search = ({slug}) => {
         };
     
         fetchData();
-      }, [slug]);
+      }, [slug , reload]);
 
 
     

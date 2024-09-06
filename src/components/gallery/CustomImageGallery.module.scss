@@ -1,0 +1,78 @@
+.galleryContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row; // Default layout for larger screens
+  
+    @media (max-width: 768px) {
+      flex-direction: column; // Stack image and thumbnails vertically
+    }
+  }
+  
+  .thumbnailsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll; // Allow scrolling
+    max-height: 63vh; // Fixed height for thumbnail column
+    width: 120px; // Adjust as needed
+    border-right: 1px solid #ddd; // Optional border to separate thumbnails from the selected image
+  
+    // Hide scrollbars
+    scrollbar-width: none; // Firefox
+    -ms-overflow-style: none; // IE and Edge
+  
+    &::-webkit-scrollbar {
+      display: none; // Hide scrollbar for WebKit-based browsers
+    }
+  
+    @media (max-width: 768px) {
+      display: none; // Hide thumbnails column on small screens
+    }
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: border 0.3s;
+  }
+  
+  .selectedThumbnail {
+    border: 2px solid #007bff; // Highlight selected thumbnail
+  }
+  
+  .selectedImageContainer {
+    flex: 1; // Occupies the remaining space
+    text-align: center;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    display: inline-block;
+    max-height: 63vh; // Ensure the wrapper doesn't exceed the container height
+  }
+  
+  .selectedImage {
+    max-width: 100%;
+    max-height: 63vh; // Max height for the displayed image
+    border-radius: 8px;
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+  

@@ -12,7 +12,9 @@ const Panel = () => {
     const {signOut} = useAuth();
 
     const handleSignout = () => {
-        signOut();
+        if(window.confirm("Are you sure you want to sign out?")){
+            signOut();
+        }
     }
 
 
@@ -29,7 +31,7 @@ const Panel = () => {
                             </p>
                         </div> :
                         <div className={styles.item + " py-3 cursor-pointer flex gap-2 items-center justify-center border-t border-t-[8px] border-t-black border-b border-b-[8px] border-b-black"} onClick={() => setPanelLevel("info")}>
-                            <p className="text-white text-center text-xs font-bold">
+                            <p className="text-white text-center text-xs hover:text-[#27BDBE] duration-300">
                                 My Information
                             </p>
                         </div>
@@ -41,7 +43,7 @@ const Panel = () => {
                             </p>
                         </div> :
                         <div className={styles.item + " py-3 cursor-pointer flex gap-3 items-center justify-center border-t border-t-[8px] border-t-black border-b border-b-[8px] border-b-black"} onClick={() => setPanelLevel("address")}>
-                            <p className="text-white text-center text-xs">
+                            <p className="text-white text-center text-xs hover:text-[#27BDBE] duration-300">
                                 My address
                             </p>
                         </div>
@@ -53,7 +55,7 @@ const Panel = () => {
                             </p>
                         </div> :
                         <div className={styles.item + " py-3 cursor-pointer flex gap-3 items-center justify-center border-t border-t-[8px] border-t-black border-b border-b-[8px] border-b-black"} onClick={() => setPanelLevel("order")}>
-                            <p className="text-white text-center text-xs">
+                            <p className="text-white text-center text-xs hover:text-[#27BDBE] duration-300">
                                 Order History
                             </p>
                         </div>
@@ -65,14 +67,14 @@ const Panel = () => {
                             </p>
                         </div> :
                         <div className={styles.item + " py-3 cursor-pointer flex gap-3 items-center justify-center border-t border-t-[8px] border-t-black border-b border-b-[8px] border-b-black"} onClick={() => setPanelLevel("like")}>
-                            <p className="text-white text-center text-xs">
+                            <p className="text-white text-center text-xs hover:text-[#27BDBE] duration-300">
                                 Likes
                             </p>
                         </div>
                     }
                     <div className={styles.signout + " max-md:text-center flex"}>
                         <div className={styles.item + " py-3 cursor-pointer flex gap-3 items-center justify-center border-t border-t-[8px] border-t-black border-b border-b-[8px] border-b-black"} onClick={handleSignout}>
-                            <p className="text-white text-center text-xs">
+                            <p className=" text-center text-xs text-[#27BDBE] font-bold">
                                 Sign Out
                             </p>
                         </div>

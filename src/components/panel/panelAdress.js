@@ -56,7 +56,7 @@ const PanelAdress = () => {
 
     // function for handle delete address forom address list 
     const handelDeleteAddress = (itemId) => {
-        axios.delete(domain + `api/accounts/address/?address_id=${itemId}` , {
+        axios.delete(domain + `accounts/address/${itemId}` , {
             headers : {
                 'Authorization' : 'Bearer ' + token,
             }

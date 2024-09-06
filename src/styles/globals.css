@@ -23,8 +23,13 @@ html{
 }
 
 
+
+.no-scroll {
+  height: 100vh;
+}
 *{
   -webkit-tap-highlight-color: transparent;
+  direction: ltr !important;
 }
 
 *{

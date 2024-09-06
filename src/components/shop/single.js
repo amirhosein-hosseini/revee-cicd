@@ -18,8 +18,10 @@ import useCart from "@/hooks/useCart";
 
 const SingleShop = () => {
 
+   
     const router = useRouter();
     const { handleAddToCart } = useCart();
+    const [isMobile, setIsMobile] = useState(false);
     const [reload , setReload] = useState(1);
     const [singleData , setSingleData] = useState(null);
     const [activeSize , setActiveSize] = useState(null);
@@ -85,6 +87,24 @@ const SingleShop = () => {
     
         fetchData();
     }, [router.query.slug]);
+
+
+    useEffect(() => {
+        const handleResize = () => {
+          setIsMobile(window.innerWidth <= 768); // Adjust the breakpoint as needed
+        };
+    
+        // Initial check on component mount
+        handleResize();
+    
+        // Listen for window resize events
+        window.addEventListener('resize', handleResize);
+    
+        // Cleanup function to remove the resize event listener
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
 
 
@@ -243,7 +263,7 @@ const SingleShop = () => {
         };
     
         fetchData();
-    }, [singleData]);
+    }, [singleData , reload]);
 
 
 
@@ -412,82 +432,85 @@ const SingleShop = () => {
                         </div>
                         <div className={styles.wrapper + " w-11/12 container max-w-7xl mx-auto items-start flex max-md:flex-col gap-5"}>
                             <div className={styles.gallery + " max-md:w-full w-7/12"}>
-                                <MyImageGallery data={[{"image" : image}]} />     
-                                <div className="mt-10">
-                                    <div className="border-t border-t-[#C5C5C5] py-3">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                                <MyImageGallery data={[{"image" : image}]} />    
+                                {isMobile === false ? 
+                                    <div className="mt-10">
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                                                {descLevel === "desc" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "desc" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.container + " flex flex-col gap-4"}>
+                                                    <div className={styles.items + " flex flex-col gap-3"}>
+                                                        <div className={styles.item + " flex flex-col gap-2"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.description }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "desc" ?
-                                            <div className={styles.container + " flex flex-col gap-4"}>
-                                                <div className={styles.items + " flex flex-col gap-3"}>
-                                                    <div className={styles.item + " flex flex-col gap-2"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.description }} />
-                                                    </div>
-                                                </div>
-                                                <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
-                                                    <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                    <div className="border-t border-t-[#C5C5C5] py-3" id="size">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                        <div className="border-t border-t-[#C5C5C5] py-3" id="size">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                                {descLevel === "size" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "size" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.size_guide }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "size" ?
-                                            <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
-                                                <div className={styles.header + " flex flex-col gap-5"}>
-                                                    <div className={styles.item + " flex flex-col gap-1"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.size_guide }} />
-                                                    </div>
-                                                </div>
-                                                <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
-                                                    <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                    
-                                    <div className="border-t border-t-[#C5C5C5] py-3">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+                                                {descLevel === "detail" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "detail" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
+                                                        </div>
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "detail" ?
-                                            <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
-                                                <div className={styles.header + " flex flex-col gap-5"}>
-                                                    <div className={styles.item + " flex flex-col gap-1"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
-                                                    </div>
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                </div>
+                                    </div> : ""
+                                } 
+
                             </div>
                             <div className={styles.info + " max-md:w-full w-5/12 flex flex-col gap-4"}>
                                 <div className={styles.title}>
@@ -655,6 +678,85 @@ const SingleShop = () => {
                                     }
                                 </div>
 
+
+                                {isMobile === true ? 
+                                    <div className="mt-10">
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                                                {descLevel === "desc" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "desc" ?
+                                                <div className={styles.container + " flex flex-col gap-4"}>
+                                                    <div className={styles.items + " flex flex-col gap-3"}>
+                                                        <div className={styles.item + " flex flex-col gap-2"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.description }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+                                        <div className="border-t border-t-[#C5C5C5] py-3" id="size">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                                {descLevel === "size" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "size" ?
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.size_guide }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+                                                {descLevel === "detail" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "detail" ?
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
+                                                        </div>
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+                                    </div> : ""
+                                }
+
                             </div>
                         </div>
                     </div>
@@ -727,81 +829,84 @@ const SingleShop = () => {
                     </div>
                     <div className={styles.wrapper + " w-11/12 container max-w-7xl mx-auto items-start flex max-md:flex-col gap-5"}>
                         <div className={styles.gallery + " max-md:w-full w-7/12"}>
-                            <MyImageGallery data={productImages} />     
-                                <div className="mt-10">
-                                    <div className="border-t border-t-[#C5C5C5] py-3">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                            <CustomImageGallery data={productImages} />     
+                                {isMobile === false ? 
+                                    <div className="mt-10">
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                                                {descLevel === "desc" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "desc" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.container + " flex flex-col gap-4"}>
+                                                    <div className={styles.items + " flex flex-col gap-3"}>
+                                                        <div className={styles.item + " flex flex-col gap-2"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.description }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "desc" ?
-                                            <div className={styles.container + " flex flex-col gap-4"}>
-                                                <div className={styles.items + " flex flex-col gap-3"}>
-                                                    <div className={styles.item + " flex flex-col gap-2"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"}  dangerouslySetInnerHTML={{ __html: singleData?.description}}  />
-                                                    </div>
-                                                </div>
-                                                <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
-                                                    <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                    <div className="border-t border-t-[#C5C5C5] py-3" id="size">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                        <div className="border-t border-t-[#C5C5C5] py-3" id="size">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                                {descLevel === "size" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "size" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.size_guide }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "size" ?
-                                            <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
-                                                <div className={styles.header + " flex flex-col gap-5"}>
-                                                    <div className={styles.item + " flex flex-col gap-1"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"}  dangerouslySetInnerHTML={{ __html: singleData?.size_guide}} />
-                                                    </div>
-                                                </div>
-                                                <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
-                                                    <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                    <div className="border-t border-t-[#C5C5C5] py-3">
-                                        <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
-                                            <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+                                                {descLevel === "detail" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
                                             {descLevel === "detail" ?
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
-                                                </svg> :
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
-                                                </svg>
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
+                                                        </div>
+                                                    </div>
+                                                </div> : ""
                                             }
                                         </div>
-                                        {descLevel === "detail" ?
-                                            <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
-                                                <div className={styles.header + " flex flex-col gap-5"}>
-                                                    <div className={styles.item + " flex flex-col gap-1"}>
-                                                        <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
-                                                    </div>
-                                                </div>
-                                            </div> : ""
-                                        }
-                                    </div>
-                                </div>                   
+                                    </div> : ""       
+                                }
+            
                         </div>
                         <div className={styles.info + " max-md:w-full w-5/12 flex flex-col gap-4"}>
                             <div className={styles.title}>
@@ -990,6 +1095,84 @@ const SingleShop = () => {
                                     </>
                                 }
                             </div>
+
+
+                            {isMobile === true ? 
+                                    <div className="mt-10">
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("desc")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Description</p>
+                                                {descLevel === "desc" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "desc" ?
+                                                <div className={styles.container + " flex flex-col gap-4"}>
+                                                    <div className={styles.items + " flex flex-col gap-3"}>
+                                                        <div className={styles.item + " flex flex-col gap-2"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.description }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " max-w-xl overflow-hidden mx-auto"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.description_image} alt={singleData?.description_image_alt} />
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+                                        <div className="border-t border-t-[#C5C5C5] py-3" id="size">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("size")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Size guide</p>
+                                                {descLevel === "size" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "size" ?
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.size_guide }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className={styles.image + " w-3/4 mx-auto overflow-hidden"}>
+                                                        <img className="object-cover w-full" src={image_url + singleData?.size_table_image} alt={singleData?.size_table_image_alt} />
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+                                        <div className="border-t border-t-[#C5C5C5] py-3">
+                                            <div className="w-full flex items-center justify-between cursor-pointer" onClick={() => handleDescLevel("detail")}>
+                                                <p className={styles.title + " font-bold text-sm max-md:text-sm"}>Product Details</p>
+                                                {descLevel === "detail" ?
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.214788 5.78266C0.501173 6.07245 0.965494 6.07245 1.25188 5.78266L5.5 1.48409L9.74812 5.78266C10.0345 6.07245 10.4988 6.07245 10.7852 5.78266C11.0716 5.49288 11.0716 5.02304 10.7852 4.73326L6.53709 0.434679C5.96432 -0.144893 5.03568 -0.144891 4.46291 0.434679L0.214789 4.73325C-0.071596 5.02304 -0.071596 5.49287 0.214788 5.78266Z" fill="#262626" />
+                                                    </svg> :
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6" fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7852 0.217339C10.4988 -0.0724465 10.0345 -0.0724465 9.74812 0.217339L5.5 4.51591L1.25188 0.217338C0.965494 -0.0724473 0.501172 -0.0724474 0.214788 0.217338C-0.0715971 0.507124 -0.0715972 0.97696 0.214788 1.26675L4.46291 5.56532C5.03568 6.14489 5.96432 6.14489 6.53709 5.56532L10.7852 1.26675C11.0716 0.976961 11.0716 0.507125 10.7852 0.217339Z" fill="#262626" />
+                                                    </svg>
+                                                }
+                                            </div>
+                                            {descLevel === "detail" ?
+                                                <div className={styles.singleshop__size + " mt-10 w-11/12 container mx-auto flex flex-col gap-4"}>
+                                                    <div className={styles.header + " flex flex-col gap-5"}>
+                                                        <div className={styles.item + " flex flex-col gap-1"}>
+                                                            <div className={styles.desc + " font-normal text-lg max-md:text-xs"} dangerouslySetInnerHTML={{ __html: singleData?.details }} />
+                                                        </div>
+                                                    </div>
+                                                </div> : ""
+                                            }
+                                        </div>
+                                    </div> : ""
+                            }
 
                         </div>
                     </div>
